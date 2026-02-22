@@ -1,0 +1,7 @@
+# Logs
+/logs/
+*.log
+*.log.*
+*.out
+*.err
+logs/alfred.log

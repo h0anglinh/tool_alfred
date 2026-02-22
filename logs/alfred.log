@@ -201,3 +201,12 @@
 [2026-02-22 14:19:39] [INFO] Scan done: moved=0, skipped=2
 [2026-02-22 14:19:40] [INFO] Dev Git Overview scan done: repos=11
 [2026-02-22 14:19:40] [INFO] WROTE obsidian note: /obsidian/98 📋 Logs/98_1 🥸 Alfred/dev_git_overview.md
+[2026-02-22 14:21:44] [INFO] Shutdown signal received. Exiting.
+[2026-02-22 14:21:45] [INFO] Started feature=downloads_janitor
+[2026-02-22 14:21:45] [INFO] Dev Git Overview started (root=/dev_projects, interval=21600s)
+[2026-02-22 14:21:45] [INFO] Started feature=dev_git_overview
+[2026-02-22 14:21:45] [INFO] Bootstrap complete
+[2026-02-22 14:21:45] [INFO] Downloads Janitor started (root=/downloads, interval=10800s, dry_run=False)
+[2026-02-22 14:21:45] [INFO] Scan done: moved=0, skipped=2
+[2026-02-22 14:21:45] [INFO] Dev Git Overview scan done: repos=12
+[2026-02-22 14:21:45] [INFO] WROTE obsidian note: /obsidian/98 📋 Logs/98_1 🥸 Alfred/dev_git_overview.md
