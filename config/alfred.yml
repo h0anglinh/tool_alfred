@@ -1,0 +1,46 @@
+logs_dir: /logs
+
+enabled_features:
+  - downloads_janitor
+  - dev_git_overview
+
+features:
+  downloads_janitor:
+    root: /downloads
+    scan_interval_seconds: 10800
+    min_file_age_seconds: 60
+    dry_run: false
+    ignore:
+      - '.DS_Store'
+      - '.*'
+      - '*.crdownload'
+      - '*.part'
+      - '*.download'
+    folders:
+      images: Images
+      videos: Videos
+      audio: Audio
+      docs: Docs
+      archives: Archives
+      code: Code
+      apps: Apps
+      other: Other
+    obsidian:
+      enabled: true
+      vault_path: /obsidian
+      logs_dir_relpath: '98 📋 Logs/98_1 🥸 Alfred'
+      title: 'Alfred • Downloads Janitor'
+  dev_git_overview:
+    root: /dev_projects
+    scan_interval_seconds: 21600
+    max_depth: 8
+    ignore_dirs:
+      - node_modules
+      - .venv
+      - venv
+      - __pycache__
+    obsidian:
+      enabled: true
+      vault_path: /obsidian
+      logs_dir_relpath: '98 📋 Logs/98_1 🥸 Alfred'
+      title: 'Alfred • Dev Git Overview'

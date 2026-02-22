@@ -1,0 +1,15 @@
+services:
+  alfred:
+    build: .
+    container_name: alfred
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Prague
+      - CONFIG_PATH=/config/alfred.yml
+    volumes:
+      - "${HOME}/Downloads:/downloads"
+      - "/Users/leen/Dev:/dev_projects"
+      - "./config:/config:ro"
+      - "./logs:/logs"
+      - "./data:/data"
+      - "/Users/leen/Library/Mobile Documents/iCloud~md~obsidian/Documents/TheSafe:/obsidian"
